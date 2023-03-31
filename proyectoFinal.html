@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>Proyecto Final CV</title>
+        <style>
+           
+           *{
+            font-family:Germania;
+            src:url(C:\Users\TECNO\Desktop\Germania.ttf);}
+         
+            
+            h1{
+                
+                font-size: 500 px;
+                
+                text-align: center;
+            }
+            p{
+               
+               list-style-type: circle; 
+              line-height: 1,5 ;
+              float: right;
+
+            }
+            body { background-color:  #ffffbf; }
+
+          
+        
+   
+        </style>
+</head>
+<body>
+    
+
+    <h1> Curriculum Vitae</h1>
+
+    
+    <img src="C:\Users\TECNO\Desktop\PhotoFunia-1677590684.jpg" style="border-radius: 15
+    
+    px"
+    width="300"
+    border-radius= "20"
+    alt="La imagen no se cargo exitosamente">
+    
+    <p id="demo" >  
+</p>
+
+  <div> 
+    
+    <ul>
+        <h2>FORMACION Y ESTUDIOS </h2>
+        
+       <b>Titulación:</b>
+        
+        <li>Nivel Medio </li>	
+             Economía y Gestión  de las  Organizaciones con Orientación en  
+              Comercialización 
+               
+        
+        <li>Nivel Superior </li>	
+              Universidad  Nacional de Córdoba
+              Facultad de Odontología 
+              Curso, 3er año de la carrera. Incompleto
+        
+       <li>Cursos:</li>	 
+         Secretariado en Centro de salud
+         Argentina Programa 4.0 primera etapa finalizada 
+
+              
+        
+        <li>Graduado de la Carrera de Prótesista Dental </li>	
+            
+    </ul>  
+</div>
+<div>
+   <h3>HABILIDADES </h3> 
+    
+    <li> Culinarias,  Jardinería , Limpieza general y Conocimiento de manejo de codigo de programacion . <b>  Aprendo Rápido</b> </li>
+    <li>	Amplia cultura general.</li>
+   <li>	Habilidades sociales en general y me agrada tratar con gente.</li>
+   
+    
+</div>
+   
+
+    <script>
+        const persona = 
+        '{"nombre":"Alberto","apellido":"Johnson","nacionalidad":"Argentino","mail":"albert.jones@example.com"}';
+	
+
+const obj = JSON.parse(persona);
+console.log(obj)
+document.getElementById("demo").innerHTML = 
+"Nombre: "+ obj.nombre + " "+ "Apellido : "+ obj.apellido +" "+"Nacionalidad : "+ obj.nacionalidad + " "+"Mail : "+ obj.mail ;
+  
+</script>
+</body>
+</html>
